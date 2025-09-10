@@ -1,0 +1,31 @@
+Package: GSAuto
+Type: Package
+Title: GSAuto: A Faster, Cross-Platform R Package for Infinium Methylation BeadChip Data Analyses
+Version: 0.1.0
+Authors@R: c(
+    person("Haoyi", "Weng", role = c("aut")),
+    person("Zhifeng", "Zheng", role = c("aut")),
+    person("Kaichen", "Tang", role = c("aut", "cre"), email = "tangkaichen@wegene.com"),
+    person("Jingyu", "Xie", role = "aut"),
+    person("Rui", "Jiang", role = "aut"),
+    person("Gang", "Chen", role = "aut"),
+    person("Minxi", "Bi", role = "aut")
+    )
+Description: GSAuto is a fast and scalable R package for processing Illumina Infinium methylation beadchip IDAT files 
+    (27k, 450k, 850k/EPIC v1.0, 935k/EPIC v2.0, MSA). It extracts probe intensities, computes beta values, detection P-values, 
+    and detection rates, with superior efficiency compared to Illumina GenomeStudio, supporting cross-platform workflows.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    illuminaio,
+    dplyr,
+    data.table
+Suggests: 
+    ggplot2,
+    knitr,
+    rmarkdown,
+    testthat
+RoxygenNote: 7.3.2
+VignetteBuilder: knitr
+Depends: R (>= 4.1)

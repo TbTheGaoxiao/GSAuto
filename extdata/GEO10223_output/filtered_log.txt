@@ -1,0 +1,21 @@
+Removed samples:
+0
+
+
+
+
+Removed probes:
+4023
+
+
+cg27842078_BC11
+cg27822734_TC11
+cg27886129_TC11
+cg09349475_TO11
+cg09349698_TO11
+
+
+Removed probes by category
+1 Type-I (G) 1008
+2 Type-I (R) 1794
+3 Type-II 1221
